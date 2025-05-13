@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Старинные замки, Карта достопримечательностей, Замки Беларуси, Интерактивная карта, Замки история, Крепости Беларуси">
+    <meta name="description" content="Обзор старинных замков Беларуси: Мирский, Несвижский, Лидский и другие.">
+    <title>О замках Беларуси</title>
+    <link rel="icon" href="../images/5.png" type="image/png" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="../css/О-замках.css"> 
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "История Беларуси",
+		"logo": "../images/5.png",
+        "url": "YOUR_WEBSITE_URL"
+	}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="О замках Беларуси">
+    <meta property="og:description" content="Обзор старинных замков Беларуси: Мирский, Несвижский, Лидский и другие.">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+
+    <header class="site-header" id="header">
+        <div class="container header-container">
+            <a href="../index.html" class="site-header__logo" title="Главная страница">
+                <img src="../images/5.png" alt="Логотип История Беларуси">
+            </a>
+            <nav class="site-header__nav" id="main-nav">
+                <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav-list">
+                    <svg viewBox="0 0 24 24" class="hamburger-icon" focusable="false" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+                </button>
+                <button id="theme-toggle-button" class="theme-toggle-button" type="button" aria-label="Переключить на светлую тему">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="theme-icon theme-icon-moon">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="theme-icon theme-icon-sun">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="nav__list" id="main-nav-list">
+                    <li class="nav__item"><a class="nav__link" href="../index.html#archive">Архив</a></li>
+                    <li class="nav__item"><a class="nav__link" href="../index.html#materials">Учебные материалы</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contacts-footer">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <div class="container intro-section__container">
+                <h1 class="page-title">Старинные замки Беларуси</h1>
+                <p class="intro-text">
+                    Лучший способ начать знакомство с любой страной – окунуться в её историю
+                    и пройтись по ключевым местам древности, услышать её легенды и
+                    повествования. А кто же лучше поведает о событиях прошлого, как ни замки
+                    Беларуси? Ведь они столетиями наблюдали расцвет княжеских династий и
+                    падение целых государств, распахивали свои врата новым королям и
+                    противостояли натиску беспощадных завоевателей.<br>
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="castle-gallery">
+                 <a href="#mirsky" class="castle-gallery__item"> <figure> <img src="../images/1.jpg" alt="Мирский замок"> <figcaption>Мирский замок</figcaption> </figure> </a>
+                 <a href="#nesvizh" class="castle-gallery__item"> <figure> <img src="../images/22.jpg" alt="Несвижский замок"> <figcaption>Несвижский замок</figcaption> </figure> </a>
+                 <a href="#lida" class="castle-gallery__item"> <figure> <img src="../images/23.jpg" alt="Лидский замок"> <figcaption>Лидский замок</figcaption> </figure> </a>
+                 <a href="#kossovo" class="castle-gallery__item"> <figure> <img src="../images/24.jpg" alt="Коссовский замок"> <figcaption>Коссовский замок</figcaption> </figure> </a>
+                 <a href="#lubcha" class="castle-gallery__item"> <figure> <img src="../images/25.jpg" alt="Любчанский замок"> <figcaption>Любчанский замок</figcaption> </figure> </a>
+                 <a href="#ruzhany" class="castle-gallery__item"> <figure> <img src="../images/26.jpg" alt="Ружанский дворец"> <figcaption>Ружанский дворец</figcaption> </figure> </a>
+                 <a href="#gomel" class="castle-gallery__item"> <figure> <img src="../images/16.jpg" alt="Гомельский дворец"> <figcaption>Гомельский дворец</figcaption> </figure> </a>
+                 <a href="#grodno" class="castle-gallery__item"> <figure> <img src="../images/28.jpg" alt="Гродненский замок"> <figcaption>Гродненский замок</figcaption> </figure> </a>
+            </div>
+        </section>
+
+        <section class="castle-detail-section castle-detail-section--image-left" id="mirsky">
+            <div class="container">
+                <div class="castle-detail__background-shape"></div>
+                <div class="castle-detail__grid">
+                    <div class="castle-detail__image-column">
+                        <img src="../images/1.jpg" alt="Мирский замок фото 1" class="castle-detail__image">
+                    </div>
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Мирский замок</h2>
+                         <img src="../images/21.jpg" alt="Мирский замок фото 2" class="castle-detail__image castle-detail__image--secondary">
+                        <p class="castle-detail__description">Жемчужина белорусской архитектуры XVI века, сочетающая готику, ренессанс и барокко, внесённая в список Всемирного наследия ЮНЕСКО.</p>
+                        <a href="Замки/Мирский.html" class="button button--primary castle-detail__button" title="Мирский замок">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="castle-detail-section castle-detail-section--image-right" id="nesvizh">
+             <div class="container">
+                <div class="castle-detail__background-shape"></div>
+                <div class="castle-detail__grid">
+                   <div class="castle-detail__text-column">
+                       <h2 class="castle-detail__title">Несвижский замок</h2>
+                        <img src="../images/11.jpg" alt="Несвижский замок фото 2" class="castle-detail__image castle-detail__image--secondary">
+                       <p class="castle-detail__description">Великолепная резиденция Радзивиллов с роскошными интерьерами, тайными ходами и легендами о привидениях.</p>
+                       <a href="Замки/Несвижский.html" class="button button--primary castle-detail__button" title="Несвижский замок">Подробнее</a>
+                   </div>
+                   <div class="castle-detail__image-column">
+                        <img src="../images/22.jpg" alt="Несвижский замок фото 1" class="castle-detail__image">
+                   </div>
+                </div>
+             </div>
+       </section>
+
+        <section class="castle-detail-section castle-detail-section--image-left" id="lida">
+             <div class="container">
+                 <div class="castle-detail__background-shape"></div>
+                 <div class="castle-detail__grid">
+                    <div class="castle-detail__image-column">
+                         <img src="../images/23.jpg" alt="Лидский замок фото 1" class="castle-detail__image">
+                    </div>
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Лидский замок</h2>
+                         <img src="../images/12.jpg" alt="Лидский замок фото 2" class="castle-detail__image castle-detail__image--secondary">
+                         <p class="castle-detail__description">Мощная кирпичная крепость XIV века, построенная Гедимином, свидетель битв с крестоносцами.</p>
+                         <a href="Замки/Лидский.html" class="button button--primary castle-detail__button" title="Лидский замок">Подробнее</a>
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+        <section class="castle-detail-section castle-detail-section--image-right" id="kossovo">
+             <div class="container">
+                 <div class="castle-detail__background-shape"></div>
+                 <div class="castle-detail__grid">
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Коссовский замок</h2>
+                         <img src="../images/13.jpg" alt="Коссовский замок фото 2" class="castle-detail__image castle-detail__image--secondary">
+                         <p class="castle-detail__description">Романтический неоготический дворец Пусловских XIX века с уникальной акустикой и львами-хранителями.</p>
+                         <a href="Замки/Коссовский.html" class="button button--primary castle-detail__button" title="Коссовский замок">Подробнее</a>
+                    </div>
+                    <div class="castle-detail__image-column">
+                        <img src="../images/24.jpg" alt="Коссовский замок фото 1" class="castle-detail__image">
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+         <section class="castle-detail-section castle-detail-section--image-left" id="lubcha">
+             <div class="container">
+                 <div class="castle-detail__background-shape"></div>
+                 <div class="castle-detail__grid">
+                    <div class="castle-detail__image-column">
+                        <img src="../images/25.jpg" alt="Любчанский замок фото 1" class="castle-detail__image">
+                    </div>
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Любчанский замок</h2>
+                         <img src="../images/14.jpg" alt="Любчанский замок фото 2" class="castle-detail__image castle-detail__image--secondary">
+                         <p class="castle-detail__description">Живописные руины ренессансного замка XVI века, который сегодня восстанавливают волонтёры.</p>
+                         <a href="Замки/Любчанский.html" class="button button--primary castle-detail__button" title="Любчанский замок">Подробнее</a>
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+         <section class="castle-detail-section castle-detail-section--image-right" id="ruzhany">
+             <div class="container">
+                 <div class="castle-detail__background-shape"></div>
+                 <div class="castle-detail__grid">
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Ружанский дворец</h2>
+                         <img src="../images/15.jpg" alt="Ружанский дворец фото 2" class="castle-detail__image castle-detail__image--secondary">
+                         <p class="castle-detail__description">"Белорусский Версаль" Сапегов, бывший центр политической жизни Великого княжества Литовского.</p>
+                          <a href="Замки/Ружанский.html" class="button button--primary castle-detail__button" title="Ружанский дворец">Подробнее</a>
+                    </div>
+                    <div class="castle-detail__image-column">
+                        <img src="../images/26.jpg" alt="Ружанский дворец фото 1" class="castle-detail__image">
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+        <section class="castle-detail-section castle-detail-section--image-left" id="gomel">
+             <div class="container">
+                 <div class="castle-detail__background-shape"></div>
+                 <div class="castle-detail__grid">
+                    <div class="castle-detail__image-column">
+                         <img src="../images/16.jpg" alt="Гомельский дворец фото 1" class="castle-detail__image">
+                    </div>
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Гомельский дворец</h2>
+                         <img src="../images/27.jpg" alt="Гомельский дворец фото 2" class="castle-detail__image castle-detail__image--secondary">
+                         <p class="castle-detail__description">Импозантный классицистический ансамбль Румянцевых-Паскевичей с роскошным парком на берегу Сожа.</p>
+                         <a href="Замки/Гомельский.html" class="button button--primary castle-detail__button" title="Гомельский дворец">Подробнее</a>
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+        <section class="castle-detail-section castle-detail-section--image-right" id="grodno">
+             <div class="container">
+                 <div class="castle-detail__background-shape"></div>
+                 <div class="castle-detail__grid">
+                    <div class="castle-detail__text-column">
+                        <h2 class="castle-detail__title">Гродненский замок</h2>
+                         <img src="../images/17.jpg" alt="Гродненский замок фото 2" class="castle-detail__image castle-detail__image--secondary">
+                         <p class="castle-detail__description">Древняя королевская резиденция на высоком берегу Немана, пережившая множество осад.</p>
+                         <a href="Замки/Гродненский.html" class="button button--primary castle-detail__button" title="Гродненский замок">Подробнее</a>
+                    </div>
+                     <div class="castle-detail__image-column">
+                        <img src="../images/28.jpg" alt="Гродненский замок фото 1" class="castle-detail__image">
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer" id="contacts-footer">
+        <div class="container footer-container">
+             <div class="footer-column">
+                <h4 class="footer-column__title">Партнеры</h4>
+                <ul class="footer-list">
+                    <li class="footer-list__item"> <span class="icon icon--partner"></span> Партнер 1 </li>
+                    <li class="footer-list__item"> <span class="icon icon--partner"></span> Партнер 2 </li>
+                     <li class="footer-list__item"> <span class="icon icon--partner"></span> Партнер 3 </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-column__title">Адреса</h4>
+                 <ul class="footer-list">
+                    <li class="footer-list__item">
+                        <span class="icon icon--location"></span> 
+                        <a href="#" class="specific-address-link">Минск, пр. Независимости, 1</a>
+                    </li>
+                    <li class="footer-list__item">
+                        <span class="icon icon--location"></span>
+                        <a href="#" class="specific-address-link">Минск, пр. Независимости, 1</a>
+                    </li>
+                    <li class="footer-list__item">
+                        <span class="icon icon--location"></span>
+                        <a href="#" class="specific-address-link">Минск, пр. Независимости, 1</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-column__title">Контакты</h4>
+                 <ul class="footer-list">
+                    <li class="footer-list__item"> <span class="icon icon--phone"></span> <a href="tel:+375333333333">+375 (33) 333-33-33</a> </li>
+                     <li class="footer-list__item"> <span class="icon icon--phone"></span> <a href="tel:+375334444444">+375 (33) 444-44-44</a> </li>
+                     <li class="footer-list__item"> <span class="icon icon--phone"></span> <a href="tel:+375335555555">+375 (33) 555-55-55</a> </li>
+                    <li class="footer-list__item"> <span class="icon icon--email"></span> <a href="mailto:info@historybelarus.by">info@historybelarus.by</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+             <p>© 2024 История Беларуси. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
