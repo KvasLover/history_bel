@@ -1,0 +1,425 @@
+
+
+.fortress-hero {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    min-height: 75vh;
+    position: relative;
+    color: #ffffff;
+}
+
+.brest-fortress-hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/Брестская_крепость/фон.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fortress-hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.fortress-hero__container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 900px;
+    padding: 0 15px; 
+}
+
+.fortress-hero__title {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+
+.fortress-hero__subtitle {
+    font-size: 1.4rem;
+    font-weight: 500; 
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+.intro-text-section {
+    padding: 60px 0;
+    background-color: #1a1a1a;
+    color: #cccccc;
+}
+.intro-text-section .container { 
+     max-width: 850px; 
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0 15px;
+}
+.intro-text-section .section-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.intro-text-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1em;
+    text-align: justify;
+    color: #cccccc;
+}
+
+
+.key-features-section {
+    padding: 80px 0;
+    background-color: #212121;
+}
+.key-features-section .section-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #292d33;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #444;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.feature-card__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.feature-card__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 15px 20px 10px 20px;
+}
+
+.feature-card__description {
+    font-size: 0.9rem;
+    color: #cccccc;
+    line-height: 1.6;
+    padding: 0 20px 20px 20px;
+    flex-grow: 1;
+}
+
+
+.defense-section {
+    
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #cccccc;
+    overflow: hidden;
+    
+    display: flex;
+    min-height: 70vh; 
+    align-items: stretch;
+    margin-top: 80px;
+}
+
+
+
+
+
+.defense-image-bg {
+    flex: 0 0 50%; 
+    background-image: url('../../images/Брестская_крепость/оборона_1941.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 500px; 
+}
+
+.defense-text-content {
+    flex: 1 1 50%; 
+    padding: 60px 5%; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.defense-text-inner {
+    max-width: 650px; 
+    width: 100%; 
+}
+
+
+.defense-section .section-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%; 
+}
+
+.defense-text p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1em;
+    text-align: justify;
+    color: #cccccc;
+}
+
+.defense-text blockquote {
+    border-left: 4px solid #478ac9;
+    padding-left: 20px;
+    margin: 25px 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #dddddd;
+}
+.defense-text blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+
+.legacy-section {
+    padding: 60px 0;
+    background-color: #212121;
+    color: #cccccc;
+}
+.legacy-section .container { 
+     max-width: 850px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0 15px;
+}
+.legacy-section .section-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.legacy-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1em;
+    text-align: justify;
+    color: #cccccc;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .fortress-hero__title { font-size: 3rem; }
+    .fortress-hero__subtitle { font-size: 1.2rem; }
+
+    .defense-section {
+        flex-direction: column; 
+    }
+    .defense-image-bg {
+       min-height: 350px;
+       flex-basis: auto; 
+       width: 100%; 
+    }
+     .defense-text-content {
+        flex-basis: auto;
+        width: 100%; 
+        padding: 40px 20px;
+        align-items: stretch; 
+    }
+     .defense-text-inner {
+        max-width: none; 
+    }
+    .defense-section .section-title {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .fortress-hero { min-height: 65vh; }
+    .fortress-hero__title { font-size: 2.5rem; }
+    .fortress-hero__subtitle { font-size: 1.1rem; }
+
+    .features-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+    }
+    .feature-card__image {
+        height: 160px;
+    }
+     .intro-text-section p, .legacy-section p, .defense-text p {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .defense-image-bg {
+       min-height: 300px;
+    }
+     .defense-text-content {
+        padding: 30px 15px;
+    }
+}
+
+.defense-fullwidth-section {
+    width: 100vw;
+    margin-left: calc(50% - 50vw); 
+    position: relative;
+    overflow: hidden;
+    background: #1a1a1a;
+  }
+  
+  .defense-fullwidth-img {
+    width: 100vw;
+    height: auto;
+    display: block;
+  }
+  
+  .defense-fullwidth-caption {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    z-index: 2;
+    pointer-events: none; 
+  }
+  
+  @media (max-width: 767px) {
+    .defense-fullwidth-caption {
+      top: 10px;
+      font-size: 0.95em;
+      padding: 0 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+.light-theme .brest-fortress-hero {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url('../../images/Брестская_крепость/фон.jpg');
+}
+.light-theme .fortress-hero__overlay {
+    display: none; 
+}
+.light-theme .fortress-hero__title {
+    color: #343a40; 
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7); 
+}
+.light-theme .fortress-hero__subtitle {
+    color: #495057; 
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); 
+}
+
+
+.light-theme .intro-text-section {
+    background-color: #f8f9fa; 
+    color: #495057; 
+    border-bottom: 1px solid #e9ecef; 
+}
+.light-theme .intro-text-section .section-title {
+    color: #343a40; 
+}
+.light-theme .intro-text-section p {
+    color: #495057; 
+}
+
+
+.light-theme .key-features-section {
+    background-color: #c1c1c1; 
+    border-bottom: 1px solid #e9ecef; 
+}
+.light-theme .key-features-section .section-title {
+    color: #343a40; 
+}
+.light-theme .feature-card {
+    background-color: #f8f9fa; 
+    border-color: #dee2e6; 
+    box-shadow: 0 3px 7px rgba(0,0,0,0.05); 
+}
+.light-theme .feature-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08); 
+    transform: translateY(-3px); 
+}
+.light-theme .feature-card__title {
+    color: #343a40; 
+}
+.light-theme .feature-card__description {
+    color: #495057; 
+}
+
+
+.light-theme .defense-section {
+    background-color: #e9ecef; 
+    color: #495057; 
+}
+
+.light-theme .defense-section .section-title {
+    color: #343a40; 
+}
+.light-theme .defense-text p {
+    color: #495057; 
+}
+.light-theme .defense-text blockquote {
+    border-left-color: #6c757d; 
+    color: #495057; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.light-theme .defense-text blockquote cite {
+    color: #343a40; 
+}
+
+
+.light-theme .defense-fullwidth-section {
+    background: #e9ecef; 
+}
+
+
+.light-theme .legacy-section {
+    background-color: #ffffff; 
+    color: #495057; 
+}
+.light-theme .legacy-section .section-title {
+    color: #343a40; 
+}
+.light-theme .legacy-section p {
+    color: #495057; 
+}
